@@ -20,4 +20,4 @@ for i in range(num):
         else: count += 11
 print("Blackjack") if ace is True and ten is True \
     else print("Bust") if count > 21 \
-    else print(count, "points")
+    else print(f"{count} points")
